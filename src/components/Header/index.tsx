@@ -14,7 +14,7 @@ const Header = () => {
   useEffect(() => {
     dispatch(countCartItems());
   }, [dispatch]);
-  
+
   useEffect(() => {
     dispatch(calculateTotalPrice());
   }, [count]);
